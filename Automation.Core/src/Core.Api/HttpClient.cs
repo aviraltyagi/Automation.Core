@@ -33,7 +33,8 @@ namespace Core.Api
         private readonly IDictionary<RequestFormat, string> RequestMediaTypes =
             new Dictionary<RequestFormat, string>
             {
-                { RequestFormat.Json, "application/json" }
+                { RequestFormat.Json, "application/json" },
+                { RequestFormat.Xml ,"application/xml"}
             };
 
         public HttpClient(ScenarioContext scenarioContext, Uri baseUrl, RequestFormat requestFormat, CookieCollection cookie = null, Dictionary<string, string> customHeaders = null)

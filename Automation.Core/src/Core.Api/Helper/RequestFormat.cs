@@ -2,6 +2,7 @@
 {
     public enum RequestFormat
     {
-        Json
+        Json,
+        Xml
     }
 }
