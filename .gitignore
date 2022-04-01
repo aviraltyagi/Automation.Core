@@ -2,6 +2,8 @@ Automation.Core/.vs
 Automation.Core/packages
 Automation.Core/src/Core.Api/bin
 Automation.Core/src/Core.Api/obj
+Automation.Core/src/Core.UI/bin
+Automation.Core/src/Core.UI/obj
 Automation.Core/test/Api.Test/bin
 Automation.Core/test/Api.Test/obj
 Automation.Core/test/Api.Test/Features/*.cs
